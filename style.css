@@ -1,10 +1,128 @@
-*{
-    box-sizing: border-box;
+* {
+    font-family: system-ui,
+        -apple-system,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        "Noto Sans",
+        "Liberation Sans",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
-    font-weight: 450;
-    font-style: normal;
+    box-sizing: border-box;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-card>h3 {
+    font-size: 30px;
+}
+
+.main-card>h2 {
+    font-size: 40px;
+    color: #C98A3B;
+}
+
+#checkbox {
+    background: #C98A3B;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 7px 7px 30px 5px gray;
+    border-radius: 19px;
+    padding: 10px;
+}
+
+.texts {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.buy {
+    background: center/cover no-repeat  url(https://assaboq.uz/img/Rectangle\ 17.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 10px;
+}
+.buy> h3{
+    color: #C98A3B;
+    font-size: 50px;
+    padding: 10px;
+}
+.buy>b>h3{
+    color: #C98A3B;
+    font-size: 40px;
+    padding: 10px;
+}
+
+input{
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.buy> form{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    align-self: center;
+}
+
+.btnZ{
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+}
+.ftr{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+}
+.left{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right{
+    width: 70%;
+}
+.tarmoqlar{
+    display: flex;
+}
+.tarmoqlar > a{
+    color: #C98A3B;
+    margin-left:20px;
+}
+#fooot{
+    text-align: center;
+    padding-bottom: 10px;
+    color: gray;
 }
 .extra {
     margin-top: 55px;
